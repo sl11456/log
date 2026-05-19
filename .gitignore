@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Training outputs & logs
+output/
+*.log
+
+# Data (uncomment if datasets are large/local-only)
+# data/
+# *.csv
+# *.xlsx
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Checkpoints
+*.pt
+*.pth
+*.ckpt
